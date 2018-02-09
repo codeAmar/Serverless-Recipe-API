@@ -1,0 +1,26 @@
+{
+  "name": "serverless-rest-api-with-dynamodb",
+  "version": "1.0.0",
+  "description": "This repository creates an API of recipes and includes CRUD operations.",
+  "main": "serverless.yml",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeAmar/Serverless-Recipe-API.git"
+  },
+  "keywords": [
+    "Serverless"
+  ],
+  "author": "amarjot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeAmar/Serverless-Recipe-API/issues"
+  },
+  "homepage": "https://github.com/codeAmar/Serverless-Recipe-API#readme",
+  "dependencies": {
+    "aws-sdk": "^2.190.0",
+    "uuid": "^3.2.1"
+  }
+}

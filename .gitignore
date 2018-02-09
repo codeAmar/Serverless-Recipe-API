@@ -1,0 +1,9 @@
+# package directories and misc files
+node_modules
+jspm_packages
+.env
+package-json.lock
+
+
+# Serverless directories
+.serverless
