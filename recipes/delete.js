@@ -13,7 +13,6 @@ module.exports.delete = (event, context, callback) => {
   };
 
   dynamoDb.delete(params, (error) => {
-    // handle potential errors
     if (error) {
       console.error(error);
       callback(null, {
@@ -24,7 +23,6 @@ module.exports.delete = (event, context, callback) => {
       return;
     }
 
-    // create a response
     const response = {
       statusCode: 200,
       body: JSON.stringify({}),
